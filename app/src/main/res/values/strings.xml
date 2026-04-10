@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CaptureMaster Pro</string>
+
+    <!-- Notification strings -->
+    <string name="recording_notification_channel">Screen Recording</string>
+    <string name="recording_notification_title">Recording in progress</string>
+    <string name="recording_notification_text">Tap to return to app</string>
+    <string name="stop_recording">Stop Recording</string>
+
+    <!-- Permission rationale strings -->
+    <string name="permission_audio_rationale">Microphone access is needed to record audio during screen capture.</string>
+    <string name="permission_storage_rationale">Storage access is needed to save your recordings.</string>
+    <string name="permission_notification_rationale">Notification permission is needed to show recording status.</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="cd_start_recording">Start recording</string>
+    <string name="cd_stop_recording">Stop recording</string>
+    <string name="cd_app_logo">CaptureMaster Pro logo</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_gallery">Gallery</string>
+
+    <!-- Billing strings -->
+    <string name="purchase_success">Purchase completed successfully!</string>
+    <string name="purchase_cancelled">Purchase was cancelled.</string>
+    <string name="purchase_pending">Purchase is pending. You\'ll get access once confirmed.</string>
+    <string name="purchase_error">Something went wrong. Please try again.</string>
+    <string name="restore_purchases">Restore Purchases</string>
+</resources>

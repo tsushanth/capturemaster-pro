@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:07:20" hostname="Sushanths-Mac-mini.local" time="0.059">
+  <properties/>
+  <testcase name="setTrimEnd updates trim end when greater than start" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.033"/>
+  <testcase name="setPlaying updates playing state" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="formatTime formats with centiseconds" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="updatePosition updates current position" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="EditorState copy preserves other fields" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="formatTime formats minutes" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="setTrimStart does not update when greater than or equal to end" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="clearSuccess clears success message" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="Factory throws for unknown ViewModel class" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.002"/>
+  <testcase name="EditorState defaults are correct" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="formatTime formats zero" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="initial state has correct defaults" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.0"/>
+  <testcase name="clearError clears error message" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.003"/>
+  <testcase name="setTrimEnd does not update when less than or equal to start" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.002"/>
+  <testcase name="updatePosition emits through StateFlow" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.003"/>
+  <testcase name="loadRecording sets error when recording not found" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.003"/>
+  <testcase name="formatTime formats seconds and centiseconds" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="setTrimStart updates trim start when less than end" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <testcase name="Factory creates EditorViewModel" classname="com.factory.capturemasterpro.viewmodel.EditorViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

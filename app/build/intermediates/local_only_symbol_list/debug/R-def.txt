@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_launcher_monochrome
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string cd_app_logo
+string cd_gallery
+string cd_settings
+string cd_start_recording
+string cd_stop_recording
+string permission_audio_rationale
+string permission_notification_rationale
+string permission_storage_rationale
+string purchase_cancelled
+string purchase_error
+string purchase_pending
+string purchase_success
+string recording_notification_channel
+string recording_notification_text
+string recording_notification_title
+string restore_purchases
+string stop_recording
+style Theme.CaptureMasterPro
+style Theme.CaptureMasterPro.Splash
+xml backup_rules
+xml data_extraction_rules
+xml file_paths

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.factory.capturemasterpro.data.db.RecordingDaoTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.factory.capturemasterpro.data.db.RecordingDaoTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.factory.capturemasterpro.data.db.html">com.factory.capturemasterpro.data.db</a> &gt; RecordingDaoTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">18</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.229s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">deleteRecording removes recording</td>
+<td class="success">0.067s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteRecordingById removes recording by id</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllRecordings emits empty list when no recordings</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getAllRecordings returns recordings ordered by createdAt DESC</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getFavoriteRecordings returns only favorites</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getLatestRecording returns most recent recording</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getLatestRecording returns null when empty</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getRecordingById returns inserted recording</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getRecordingById returns null for nonexistent id</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getRecordingCount emits correct count</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getTotalRecordingTime emits sum of durations</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getTotalStorageUsed emits sum of file sizes</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">insertRecording returns generated id</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">insertRecording with REPLACE strategy updates on conflict</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">recording fields persist correctly</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateFavoriteStatus can unfavorite</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateFavoriteStatus toggles favorite flag</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">updateRecording modifies existing recording</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at Mar 26, 2026, 5:06:58 AM</p>
+</div>
+</div>
+</body>
+</html>

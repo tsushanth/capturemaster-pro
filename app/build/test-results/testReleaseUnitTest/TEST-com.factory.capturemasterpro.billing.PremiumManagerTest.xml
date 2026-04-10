@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.billing.PremiumManagerTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:07:20" hostname="Sushanths-Mac-mini.local" time="0.181">
+  <properties/>
+  <testcase name="PremiumFeature valueOf works correctly" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.023"/>
+  <testcase name="isPremium defaults to false" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.026"/>
+  <testcase name="setAdsRemoved true updates isAdsRemoved flow" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.041"/>
+  <testcase name="setPremiumStatus true updates isPremium flow" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.01"/>
+  <testcase name="PremiumFeature display names are correct" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.006"/>
+  <testcase name="PremiumFeature has all expected values" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.007"/>
+  <testcase name="isAdsRemoved defaults to false" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.007"/>
+  <testcase name="setPremiumStatus persists across new PremiumManager instance" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.009"/>
+  <testcase name="setAdsRemoved false reverts isAdsRemoved flow" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.01"/>
+  <testcase name="setting ads removed does not affect premium status" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.01"/>
+  <testcase name="setAdsRemoved persists across new PremiumManager instance" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.009"/>
+  <testcase name="premium and ads removed are independent" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.01"/>
+  <testcase name="setPremiumStatus false reverts isPremium flow" classname="com.factory.capturemasterpro.billing.PremiumManagerTest" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

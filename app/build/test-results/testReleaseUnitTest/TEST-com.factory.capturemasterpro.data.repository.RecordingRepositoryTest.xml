@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:07:20" hostname="Sushanths-Mac-mini.local" time="0.247">
+  <properties/>
+  <testcase name="updateRecording delegates to dao" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.148"/>
+  <testcase name="getLatestRecording returns null when no recordings" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.045"/>
+  <testcase name="insertRecording delegates to dao and returns id" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.004"/>
+  <testcase name="allRecordings emits all recordings from dao" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.012"/>
+  <testcase name="deleteRecordingById delegates to dao" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="getLatestRecording returns most recent recording" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.003"/>
+  <testcase name="recordingCount emits correct count" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="favoriteRecordings emits only favorites" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="toggleFavorite delegates to dao with correct params" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.009"/>
+  <testcase name="getRecordingById returns recording when found" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="getRecordingById returns null when not found" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="totalStorageUsed emits sum of file sizes" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="deleteRecording delegates to dao" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="totalRecordingTime emits sum of durations" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.002"/>
+  <testcase name="toggleFavorite can set to not favorite" classname="com.factory.capturemasterpro.data.repository.RecordingRepositoryTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.data.db.RecordingDaoTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:06:57" hostname="Sushanths-Mac-mini.local" time="0.231">
+  <properties/>
+  <testcase name="deleteRecording removes recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.067"/>
+  <testcase name="updateFavoriteStatus toggles favorite flag" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.01"/>
+  <testcase name="updateFavoriteStatus can unfavorite" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="getLatestRecording returns most recent recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="getRecordingById returns inserted recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="deleteRecordingById removes recording by id" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.012"/>
+  <testcase name="getRecordingById returns null for nonexistent id" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.007"/>
+  <testcase name="updateRecording modifies existing recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="insertRecording with REPLACE strategy updates on conflict" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.008"/>
+  <testcase name="getAllRecordings returns recordings ordered by createdAt DESC" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.015"/>
+  <testcase name="getTotalRecordingTime emits sum of durations" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.013"/>
+  <testcase name="insertRecording returns generated id" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.008"/>
+  <testcase name="getAllRecordings emits empty list when no recordings" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="recording fields persist correctly" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.007"/>
+  <testcase name="getTotalStorageUsed emits sum of file sizes" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.01"/>
+  <testcase name="getLatestRecording returns null when empty" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="getFavoriteRecordings returns only favorites" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="getRecordingCount emits correct count" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/sushanthtiruvaipati/Documents/AndroidApps/CaptureMaster Pro/app"
+    name=":app"
+    type="APP"
+    maven="CaptureMaster Pro:app:"
+    agpVersion="8.2.2"
+    buildFolder="build"
+    bootClassPath="/Users/sushanthtiruvaipati/Library/Android/sdk/platforms/android-34/android.jar:/opt/homebrew/share/android-commandlinetools/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

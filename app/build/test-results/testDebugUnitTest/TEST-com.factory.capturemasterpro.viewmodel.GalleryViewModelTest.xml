@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" tests="29" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:06:57" hostname="Sushanths-Mac-mini.local" time="0.085">
+  <properties/>
+  <testcase name="toggleFavorite calls repository" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.017"/>
+  <testcase name="clearSelection empties selection and exits selection mode" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="sortRecordings by SIZE_DESC sorts largest first" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="setSortOrder updates sort order" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="toggleFavoritesFilter toggles state" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.005"/>
+  <testcase name="deleteRecording calls repository delete" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.003"/>
+  <testcase name="sortRecordings by DATE_DESC sorts newest first" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="initial isSelectionMode is false" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="initial sort order is DATE_DESC" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="formatDuration formats zero" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="formatFileSize formats kilobytes" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="sortRecordings by SIZE_ASC sorts smallest first" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="formatFileSize formats bytes" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="toggleSelection with multiple recordings" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="favoriteRecordings flow emits only favorites" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.015"/>
+  <testcase name="sortRecordings by DURATION_DESC sorts longest first" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="enterSelectionMode sets isSelectionMode to true" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="toggleSelection adds recording to selection" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.003"/>
+  <testcase name="initial showFavoritesOnly is false" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="formatFileSize formats megabytes" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="formatFileSize formats gigabytes" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="toggleSelection removes recording from selection" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="formatDuration formats hours" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="toggleFavorite unfavorites a favorite recording" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.007"/>
+  <testcase name="sortRecordings by NAME_ASC sorts alphabetically" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="allRecordings flow emits repository data" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <testcase name="formatDuration formats minutes and seconds" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="sortRecordings by DATE_ASC sorts oldest first" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.001"/>
+  <testcase name="initial selectedRecordings is empty" classname="com.factory.capturemasterpro.viewmodel.GalleryViewModelTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

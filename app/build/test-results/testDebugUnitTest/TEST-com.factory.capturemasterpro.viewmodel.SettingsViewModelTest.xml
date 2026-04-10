@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:06:54" hostname="Sushanths-Mac-mini.local" time="1.237">
+  <properties/>
+  <testcase name="formatDuration formats minutes" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.827"/>
+  <testcase name="initial settings have correct defaults" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.057"/>
+  <testcase name="totalStorageUsed emits repository value" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.028"/>
+  <testcase name="Factory creates SettingsViewModel" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.02"/>
+  <testcase name="toggleMicrophone flips microphone enabled" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.018"/>
+  <testcase name="formatFileSize formats kilobytes" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.014"/>
+  <testcase name="formatFileSize formats bytes" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.012"/>
+  <testcase name="recordingCount emits repository value" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.017"/>
+  <testcase name="updateResolution persists new resolution" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.016"/>
+  <testcase name="toggleCountdown flips show countdown" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.015"/>
+  <testcase name="formatDuration formats hours and minutes" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.012"/>
+  <testcase name="toggleAudio flips audio enabled" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.014"/>
+  <testcase name="Factory throws for unknown ViewModel class" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.012"/>
+  <testcase name="updateCountdownSeconds persists new value" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.013"/>
+  <testcase name="formatDuration handles null" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.009"/>
+  <testcase name="formatDuration handles zero" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.014"/>
+  <testcase name="formatFileSize handles null" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.024"/>
+  <testcase name="formatFileSize handles zero" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.012"/>
+  <testcase name="updateFrameRate persists new frame rate" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.013"/>
+  <testcase name="formatFileSize formats megabytes" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.008"/>
+  <testcase name="updateBitRate persists new bit rate" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.011"/>
+  <testcase name="totalRecordingTime emits repository value" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.011"/>
+  <testcase name="toggleDynamicColors flips dynamic colors" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.012"/>
+  <testcase name="formatFileSize formats gigabytes" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.009"/>
+  <testcase name="setDarkMode persists dark mode" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.014"/>
+  <testcase name="toggleShowTouches flips show touches" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.014"/>
+  <testcase name="AppSettings defaults are correct" classname="com.factory.capturemasterpro.viewmodel.SettingsViewModelTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+]]></system-err>
+</testsuite>

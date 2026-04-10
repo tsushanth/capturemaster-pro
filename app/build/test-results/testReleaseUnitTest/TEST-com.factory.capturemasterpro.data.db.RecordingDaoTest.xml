@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.data.db.RecordingDaoTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:07:20" hostname="Sushanths-Mac-mini.local" time="0.217">
+  <properties/>
+  <testcase name="deleteRecording removes recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.051"/>
+  <testcase name="updateFavoriteStatus toggles favorite flag" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.01"/>
+  <testcase name="updateFavoriteStatus can unfavorite" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.008"/>
+  <testcase name="getLatestRecording returns most recent recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.01"/>
+  <testcase name="getRecordingById returns inserted recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.008"/>
+  <testcase name="deleteRecordingById removes recording by id" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="getRecordingById returns null for nonexistent id" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.007"/>
+  <testcase name="updateRecording modifies existing recording" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="insertRecording with REPLACE strategy updates on conflict" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="getAllRecordings returns recordings ordered by createdAt DESC" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.019"/>
+  <testcase name="getTotalRecordingTime emits sum of durations" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.012"/>
+  <testcase name="insertRecording returns generated id" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.008"/>
+  <testcase name="getAllRecordings emits empty list when no recordings" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="recording fields persist correctly" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.008"/>
+  <testcase name="getTotalStorageUsed emits sum of file sizes" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.011"/>
+  <testcase name="getLatestRecording returns null when empty" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.009"/>
+  <testcase name="getFavoriteRecordings returns only favorites" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.01"/>
+  <testcase name="getRecordingCount emits correct count" classname="com.factory.capturemasterpro.data.db.RecordingDaoTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

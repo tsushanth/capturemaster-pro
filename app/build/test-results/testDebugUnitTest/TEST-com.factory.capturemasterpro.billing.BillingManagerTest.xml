@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.factory.capturemasterpro.billing.BillingManagerTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2026-03-26T12:06:55" hostname="Sushanths-Mac-mini.local" time="1.763">
+  <properties/>
+  <testcase name="startConnection changes state to CONNECTING" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.205"/>
+  <testcase name="initial purchase state is Idle" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.04"/>
+  <testcase name="ConnectionState has all expected values" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.04"/>
+  <testcase name="getFormattedPrice returns null when no product details" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.044"/>
+  <testcase name="product IDs are correct" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.046"/>
+  <testcase name="startConnection changes state to CONNECTED on success" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.098"/>
+  <testcase name="PurchaseState Idle is singleton" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.039"/>
+  <testcase name="startConnection does nothing when already connected" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.047"/>
+  <testcase name="resetPurchaseState sets state to Idle" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.04"/>
+  <testcase name="initial product details is empty" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.04"/>
+  <testcase name="PurchaseState Pending is singleton" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.048"/>
+  <testcase name="restorePurchases sets state to Loading" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.043"/>
+  <testcase name="PurchaseState Cancelled is singleton" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.04"/>
+  <testcase name="initial connection state is DISCONNECTED" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.039"/>
+  <testcase name="endConnection disconnects billing client" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.041"/>
+  <testcase name="PurchaseState AlreadyOwned is singleton" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.041"/>
+  <testcase name="launchPurchaseFlow sets error when product not available" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.661"/>
+  <testcase name="startConnection changes state to DISCONNECTED on failure" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.039"/>
+  <testcase name="PurchaseState Loading is singleton" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.032"/>
+  <testcase name="PurchaseState Error contains message" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.034"/>
+  <testcase name="PurchaseState Error equality" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.035"/>
+  <testcase name="onBillingServiceDisconnected sets state to DISCONNECTED" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.033"/>
+  <testcase name="PurchaseState Success is singleton" classname="com.factory.capturemasterpro.billing.BillingManagerTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:55 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:56 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+Mar 26, 2026 5:06:57 AM com.google.android.datatransport.runtime.scheduling.DefaultScheduler lambda$schedule$1
+WARNING: Transport backend 'cct' is not registered
+]]></system-err>
+</testsuite>
